@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vue JS Learning</title>
+	</head>
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<div id="what">
+			What: This is vue1.html, it is getting an input value and printing it in p tag using vue facility.
+		</div>
+		<div id="how">
+			How: make html input, make vuejs element, attach it to html input,print value of html input into paragraph tag.
+		</div>
+
+		<div id="root-div">
+			<input type="text" name="onlyone" id="onlyone" v-model="onlyone" />
+			<p>{{onlyone}}</p>
+		</div>
+		<script type="text/javascript">
+			new Vue({el:'#root-div',data:{onlyone:'Its only one.'}});
+		</script>
+	</body>
+</html>

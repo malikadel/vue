@@ -1,0 +1,6 @@
+After making new repo on github.Do following on your local.
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/malikadel/vue.git
+git push -u origin master

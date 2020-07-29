@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vue JS Learning</title>
+	</head>
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<div id="what">
+			What: Iterate names' array and generate dynamic li's with names in a ul.
+		</div>
+		<div id="how">
+			How: Make Vuejs object,make array as its datapart iterate in html.
+		</div>
+		<div id="root-div">
+			<ul id="ul1">
+				<li v-for="name in names">{{name}}</li>
+			</ul>
+			<ul id="ul2">
+				<li v-for="name in names" v-text="name"></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+				var app = new Vue({el:'#root-div',data:{onlyone:'Its only one.',names:['adeel','sadia','Ayesha','Ibrahim','Ismail']}});			
+
+		</script>
+	</body>
+</html>

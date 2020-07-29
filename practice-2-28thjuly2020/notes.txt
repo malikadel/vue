@@ -1,0 +1,6 @@
+What this folder(practice-blueprints) is doing here:
+
+This folder contain scaffoldings for rebuilding your learning very fast, it contain html/css/javascript which is directly not associated with vuejs learnings, but needed for running vuejs code.
+Way of working.
+
+Simply copy paste this folder name it practice-x and start repeating things.
